@@ -1,0 +1,62 @@
+{% extends 'core/base.html' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>{% block title %}welcome tranding{% endblock %}</title>
+    {% block htmlhead %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'index.css'%}">
+    {% endblock htmlhead %}
+
+
+</head>
+    <body>
+        {% block content %}
+        <div class="container px-4 text-center">
+          <div class="row gx-5">
+            <div class="col">
+             <div class="p-3">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Kevin_Sanjaya_Sukamuljo.jpg/220px-Kevin_Sanjaya_Sukamuljo.jpg" alt="">
+             </div>
+            </div>
+            <div class="col">
+              <div class="p-3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYSvwcMw4hWaMHbaJS92FA73n5_72qn6fhKkofP46mp3Ovj79SAX38l-BCOo7IQjstfmk&usqp=CAU" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3>Kevin Sanjaya Sukamuljo</h3>
+        <p>Kevin Sanjaya Sukamuljo [2] (lahir 2 Agustus 1995[3]) adalah salah satu pemain bulu tangkis ganda putra dan campuran Indonesia. Atlet ini merupakan pemain asal klub Djarum di Kudus, Jawa Tengah dan bergabung sejak tahun 2007. Bersama dengan rekan-rekan pemain beregu putra lainnya ia berhasil menyumbangkan medali emas pada Pesta Olahraga Asia Tenggara 2015.
+
+          Kevin saat ini dipasangkan dengan Marcus Fernaldi Gideon di nomor ganda putra. Sejak 2017 hingga 2022, tercatat Kevin bersama Marcus menempati Peringkat 1 dunia terlama di sektor ganda putra. Dia telah memenangkan 36 gelar juara dalam karir bulu tangkisnya termasuk menjadi juara ganda putra All England 2017 dan 2018, dan juga Asian Games 2018. Kevin dan Marcus juga tergabung dalam Tim Nasional Bulu Tangkis Indonesia yang berhasil memenangkan Pesta Olahraga Asia Tenggara (SEA Games) 2015, Kejuaraan Beregu Asia pada 2016, 2018, 2020, dan Kejuaraan Piala Thomas yang merupakan gelar pertama Indonesia dalam 19 tahun terakhir.
+          
+          Bersama Marcus Fernaldi Gideon, ia mendapatkan penghargaan dari BWF sebagai pemain badminton terbaik seluruh dunia dua tahun secara beruntun setelah memenangkan 7 gelar BWF Super Series pada 2017 dan 8 gelar World Tour pada 2018. Kevin Sanjaya Sukamuljo terkenal dengan permainan yang cepat, agresif, full attack, dan memiliki serangan yang sangat sadis terhadap lawannya.</p>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://akcdn.detik.net.id/visual/2023/11/06/kevin-sanjaya-sukamuljorahmat-hidayat-2_169.jpeg?w=650&q=90" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">KEVIN SANJAYA</h5>
+                  <p class="card-text">Selain itu, Shesar Hiren Rhustavito sebagao perwakilan nomor tunggal putra akan berjumpa Wang Tzu Wei. Pebulutangkis asal Taiwan itu merupakan unggulan kelima di turnamen ini.
+
+                    Sedangkan tunggal putri jadi nomor yang punya wakil terbanyak yaitu dua wakil. Komang Ayu Cahya Dewi akan bertemu Pornpicha Choeikeewong sementara Ester Nurumi Tri Wardoyo bakal berduel lawan Lin Sih Yun.
+                    
+                    Jadwal Wakil Indonesia di 16 Besar Korea Masters (Mulai 08.00 WIB)
+                    
+                    </p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        {% endblock %}
+    </body>
+    </html>

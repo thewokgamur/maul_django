@@ -1,0 +1,123 @@
+{% extends 'core/base.html' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>{% block title %}welcome Berita{% endblock %}</title>
+    {% block htmlhead %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'index.css'%}">
+    {% endblock htmlhead %}
+
+    <head>
+    <body>
+      {% block content %}
+      <div class="card mb-3">
+        <button type="button" class="btn btn-dark d-block w-100">
+          Notifications <span class="badge text-bg-secondary">99+</span>
+        </button>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu01KoATYLbF6WO0SfRLMn6YQybhFz88dK7Q&usqp=CAU" class="card-img-top d-block w-50 mx-auto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">MOBIL KLASIK</h5>
+          <p class="card-text">Keberadaan kendaraan klasik di Indonesia, memang akan semakin terus berkembang. Hal tersebut, bisa dilihat dari menjamurnya komunitas pencinta mobil antik dengan beragam merek dan modelnya.
+
+            Menyadari potensi yang cukup besar di pasar kendaraan klasik, muncullah aplikasi Batok atau Bandar Oto Klasik (Batok) yang akan segera dirilis secara resmi dalam beberapa waktu ke depan.
+            
+            "Aplikasi digital ini merupakan satu-satunya yang menghubungkan penjual dan pembeli, serta lelang khusus kendaraan klasik. ini pertama di Indonesia, kalaupun ada itu di Australia dan Cina," ujar Chief Operation Officer Batok, Andri Renreng..</p>
+          <p class="card-text"><small class="text-body-secondary">update hari ini</small></p>
+        </div>
+      </div>
+      
+        <div class="container px-4 text-center">
+            <div class="row gx-5">
+              <div class="col">
+               <div class="p-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://akcdn.detik.net.id/visual/2023/11/01/liga-voli-korea_169.jpeg?w=650&q=90" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">TV DIK INDONESIA</h5>
+                      <p class="card-text">alan panjang Megawati Hangestri Pertiwi juara bersama Red Sparks dan Barcelona menelan kekalahan di Liga Champions jadi berita terpopuler olahraga dalam 24 jam terakhir.
+
+                        </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+               </div>
+              </div>
+              <div class="col">
+                <div class="p-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://akcdn.detik.net.id/visual/2023/11/08/eks-asisten-pelatih-timnas-indonesia-bantu-brasil-di-piala-dunia-u-1_169.jpeg?w=650&q=90" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">TV DIK INDONESIA</h5>
+                          <p class="card-text">Lama menghilang dari belantika sepak bola nasional, mantan asisten pelatih Timnas Indonesia Fabio Oliveira terlihat membantu Brasil di Piala Dunia U-17 2023
+
+                            .</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <footer class="site-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-6">
+                  <h6>About</h6>
+                  <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+                </div>
+        
+                <div class="col-xs-6 col-md-3">
+                  <h6>Categories</h6>
+                  <ul class="footer-links">
+                    <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+                    <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+                    <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+                    <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+                    <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+                    <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+                  </ul>
+                </div>
+        
+                <div class="col-xs-6 col-md-3">
+                  <h6>Quick Links</h6>
+                  <ul class="footer-links">
+                    <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                    <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                    <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                    <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                    <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+                  </ul>
+                </div>
+              </div>
+              <hr>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                  <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+               <a href="#">TV DIK</a>.
+                  </p>
+                </div>
+        
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                  <ul class="social-icons">
+                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </footer>
+
+          {% endblock %}
+
+    </body>
+    </head>
